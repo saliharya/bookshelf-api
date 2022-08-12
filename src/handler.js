@@ -77,7 +77,7 @@ const getAllBookHandler = (request, h) => {
 
   if (name) {
     filteredBooks = filteredBooks.filter((book) => book.name
-      .toLowerCase().includes(name.toLowerCase())); // Agar non-case sensitive
+      .toLowerCase().includes(name.toLowerCase()));
   }
 
   if (reading) {
